@@ -1,0 +1,13 @@
+name: dbt slim ci
+on:
+  push:
+    paths:
+      - 'test/**'
+jobs:
+  action-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: We don't want this to run
+        run: |
+          echo "This should not run"
