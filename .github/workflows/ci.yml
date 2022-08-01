@@ -1,4 +1,4 @@
-name: dbt slim ci
+name: ci test
 on:
   push:
     paths:
